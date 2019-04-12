@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+    <TextView
+            android:text="Contacts App"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/tvContact" android:gravity="center"
+            android:textSize="20sp" android:textColor="@color/colorPrimary" android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+    <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp" app:srcCompat="@drawable/smileface" android:id="@+id/ivFace"
+            android:layout_gravity="center" android:visibility="gone"/>
+    <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp" app:srcCompat="@drawable/phone" android:id="@+id/ivPhone"
+            android:layout_gravity="center" android:layout_marginTop="10dp" android:visibility="gone"/>
+    <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp" app:srcCompat="@drawable/web" android:id="@+id/ivWeb"
+            android:layout_gravity="center" android:layout_marginTop="10dp" android:visibility="gone"/>
+    <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp" app:srcCompat="@drawable/location" android:id="@+id/ivMap"
+            android:layout_gravity="center" android:layout_marginTop="10dp" android:visibility="gone"/>
+    <Button
+            android:text="Create Contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnCreateContact"
+            android:background="@color/colorPrimary" android:textColor="@android:color/white" android:textStyle="bold"
+            android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginTop="10dp"/>
+</LinearLayout>

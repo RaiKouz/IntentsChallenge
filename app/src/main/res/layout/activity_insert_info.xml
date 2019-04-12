@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".InsertInfoActivity" android:background="@color/colorPrimaryLight">
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/etName" android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp" android:hint="please enter your name" android:freezesText="true"
+            android:gravity="center"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/etNumber" android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp" android:hint="please enter your number" android:gravity="center"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/etWebsite" android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp" android:hint="please enter your website" android:gravity="center"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/etAddress" android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp" android:hint="please enter your address" android:gravity="center"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp" app:srcCompat="@drawable/smileface" android:id="@+id/btnHappy"
+                android:layout_weight="1" android:clickable="true"/>
+        <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp" app:srcCompat="@drawable/mehface" android:id="@+id/btnMeh"
+                android:clickable="true"/>
+        <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp" app:srcCompat="@drawable/sadface" android:id="@+id/btnSad"
+                android:layout_weight="1" android:clickable="true"/>
+    </LinearLayout>
+</LinearLayout>
